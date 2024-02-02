@@ -71,7 +71,7 @@ export default async function ProductPge({
               </div>
 
               <span className="text-sm text-gray-500">
-                Compralo ahora, llevate dos niños
+                Composición:
               </span>
             </div>
 
