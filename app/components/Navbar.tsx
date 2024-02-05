@@ -20,11 +20,11 @@ export default function Navbar() {
   const { handleCartClick } = useShoppingCart();
 
   return (
-    <header className="bg-purple-400 bg-opacity-55 pb-6 sm:pb-8 lg:pb-1">
+    <header className="bg-brown bg-opacity-85 pb-6 sm:pb-8 lg:pb-1">
     <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl" style={{ fontFamily: 'helvetica' }}>
       <Link href="/">
         <h1 className="text-2xl md:text-4xl font-bold">
-          AEG<span style={{ color: '#4a009b' }}>Commerce</span>
+          MOA<span style={{ color: '#4a009b' }}>Commerce</span>
         </h1>
       </Link>
 

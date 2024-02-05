@@ -15,7 +15,7 @@ export default async function Hero() {
   console.log(data);
   return (
    
-    <section className="mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl lg:px-8">
+    <section className="bg-beige-800 mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl lg:px-8">
       <div className="mb-8 flex flex-wrap justify-between md:mb-40">
         <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
           <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
@@ -43,7 +43,7 @@ export default async function Hero() {
         </div>
       </div>
 
-      <div className="bg-purple flex flex-col items-center justify-center gap-40 md:flex-row" style={{ fontFamily: 'helvetica' }}>
+      <div className=" flex flex-col items-center justify-center gap-40 md:flex-row" style={{ fontFamily: 'helvetica' }}>
         <div className="flex flex-col items-center gap-4">
 
           <p className="text-2xl font-bold tracking-tight text-purple-700">SHOES</p>
