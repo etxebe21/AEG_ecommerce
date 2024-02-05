@@ -34,7 +34,7 @@ export default function ShoppingCartModal() {
   }
   return (
     <Sheet open={shouldDisplayCart} onOpenChange={() => handleCartClick()}>
-      <SheetContent className="sm:max-w-lg w-[90vw] bg-purple-200" style={{ fontFamily: 'helvetica' }}>
+      <SheetContent className="sm:max-w-lg w-[90vw] bg-secondary" style={{ fontFamily: 'helvetica' }}>
         <SheetHeader>
           <SheetTitle>Shopping Cart</SheetTitle>
         </SheetHeader>

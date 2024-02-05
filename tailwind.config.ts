@@ -26,11 +26,13 @@ const config = {
         background: "#f5f5dc",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          //DEFAULT: "#c2bea2",
+          DEFAULT: "#a19c7c",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          
+          DEFAULT: "#c2bea2",
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {

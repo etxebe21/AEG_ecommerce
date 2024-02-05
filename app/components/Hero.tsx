@@ -46,8 +46,8 @@ export default async function Hero() {
       <div className=" flex flex-col items-center justify-center gap-40 md:flex-row" style={{ fontFamily: 'helvetica' }}>
         <div className="flex flex-col items-center gap-4">
 
-          <p className="text-2xl font-bold tracking-tight text-purple-700">SHOES</p>
-          <Link href="/SHOES" className="relative w-64 h-96 overflow-hidden rounded-lg border border-purple-400">
+          <p className="text-2xl font-bold tracking-tight text-primary">SHOES</p>
+          <Link href="/SHOES" className="relative w-64 h-96 overflow-hidden rounded-lg border border-primary">
             <Image
               src={urlFor(data.image1).url()} 
               alt="Men Image"
@@ -60,8 +60,8 @@ export default async function Hero() {
 
         <div className="flex flex-col items-center gap-4">
 
-        <p className="text-2xl font-bold tracking-tight text-purple-700">PANTS</p>
-          <Link href="/PANTS" className="relative w-64 h-96 overflow-hidden rounded-lg border border-purple-400">
+        <p className="text-2xl font-bold tracking-tight text-primary">PANTS</p>
+          <Link href="/PANTS" className="relative w-64 h-96 overflow-hidden rounded-lg border border-primary">
             <Image
               src={urlFor(data.image5).url()} 
               alt="Women Image"
@@ -74,8 +74,8 @@ export default async function Hero() {
 
         <div className="flex flex-col items-center gap-4">
 
-        <p className="text-2xl font-bold tracking-tight text-purple-700">COATS</p>
-          <Link href="/COATS" className="relative w-64 h-96 overflow-hidden rounded-lg border border-purple-400">
+        <p className="text-2xl font-bold tracking-tight text-primary">COATS</p>
+          <Link href="/COATS" className="relative w-64 h-96 overflow-hidden rounded-lg border border-primary">
             <Image
               src={urlFor(data.image3).url()} 
               alt="Teens Image"
